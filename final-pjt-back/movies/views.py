@@ -143,7 +143,7 @@ def ssafyplus(request):
     movies = get_list_or_404(Movie)
     ssafyplusmovie = []
     for movie in movies:
-        if len(movie.moviecomment_set.all()) >= 2:
+        if len(movie.moviecomment_set.all()) >= 5:
             tmp = 0
             for comment in (list(movie.moviecomment_set.all().values('vote_rate'))):
                 tmp += comment['vote_rate']

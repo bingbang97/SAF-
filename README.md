@@ -1,92 +1,153 @@
+[toc]
+
 # final-pjt
 
 박소현  & 이병수 1학기 최종 프로젝트
 
-## Getting started
+# README
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## 팀원 정보 및 업무 분담 내역
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+| 이병수          | 박소현   |
+| --------------- | -------- |
+| 팀장            | 팀원     |
+| ERD             | Coummity |
+| DB 설계 및 구축 | CSS      |
+| 알고리즘 구현   | 발표     |
 
-## Add your files
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
 
-```
-cd existing_repo
-git remote add origin https://lab.ssafy.com/byoung1997s4/final-pjt.git
-git branch -M master
-git push -uf origin master
-```
+## 개발목표
 
-## Integrate with your tools
+유저에게 다양한 형태의 영화 추천 기능 구현
 
-- [ ] [Set up project integrations](https://lab.ssafy.com/byoung1997s4/final-pjt/-/settings/integrations)
+유저간의 자유로운 소통을 위한 커뮤니티 기능 구현
 
-## Collaborate with your team
+유저의 활동기록이 남는 개인 프로필 기능 구현
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+원활하고 깔끔한 형태의 웹 구현
 
-## Test and Deploy
+### 개발환경
 
-Use the built-in continuous integration in GitLab.
+Django & Vue 2
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
-***
 
-# Editing this README
+## 목표 서비스 구현 및 실제 구현 정도
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+1. Account
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+   1-1 회원가입 / 로그인 / 로그아웃 / 회원탈퇴 / 비밀번호 변경
 
-## Name
-Choose a self-explaining name for your project.
+   - Token을 활용하여 회원가입 / 로그인 / 로그아웃 / 비밀번호 변경 구현
+   - 추가 Serializer 이용하여 회원탈퇴 구현
+   - 모델을 변경하여 회원가입 시 별도로 선호 장르를 3가지 수집하여 추후 알고리즘에 활용
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+   1-2 Error메시지
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+   - 회원 가입 시 입력내용이 형식에 맞지 않을 때 상황에 맞는 안내 문구 출력
+   - 로그인이 불가능 한 경우 경고 문구 출력
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+2. Movie
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+   2-1 Carousel
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+   - 현재 영화관 상영작 중 인기 상영작 유튜브 예고편 재생
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+   2-2 영화 리스트
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+   - 자체 알고리즘을 통해 선별된 영화의 리스트를 Swiper로 출력
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+     * 2-2-1 top 20 tmdb의 popularity 기준 상위 20개
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+     * 2-2-2 현재 시각을 받아 시간대 별 해당하는 장르 추천 / 정렬 기준은 tmdb popularity 기준
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+     * 2-2-3 회원 가입 시 받은 유저의 선호 장르를 통해 선호 장르에 해당하는 영화 추천 / 정렬 기준은 tmdb popularity 기준
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+     * 2-2-4 사이트에서 평점을 준 유저가 5명 이상이며, 유저들의 평균 평점이 3.5점인 영화들에 대하여 추천
 
-## License
-For open source projects, say how it is licensed.
+3. Community : 유저간 게시글과 댓글을 통한 자유로운 의견 교환을 위한 자유 게시판
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+   3-1 community
+
+   - bootstrap table을 이용하여 구성
+   - title을 통하여 article의 세부 정보페이지로 이동
+   - article의 username을 통해 유저 정보 페이지로 이동
+
+   3-2 article & comment
+
+   - CRUD 구성을 기본적으로 제공하여 유저간의 자유로운 소통 구현
+   - comment의 경우, 업데이트 형태를 요청 된 경우에만 수정모드로 토글하여 전체적인 가시성 향상
+
+4. Profile :  유저의 활동 기록
+
+   4-1 좋아하는 장르
+
+   - 가입 시 입력한 장르 출력
+
+   4-2 작성한 게시글
+
+   - 유저가 작성한 게시글의 제목을 출력, 클릭시 해당 게시글로 이동
+
+   4-3 좋아요를 남긴 게시글
+
+   - 유저가 좋아요를 표시한 게시글의 제목을 출력, 클릭시 해당 게시글로 이동
+
+   4-4 평점을 남긴 영화 리스트
+
+   - 영화 중 평점을 남긴 영화 리스트를 swiper형식을 활용하여 출력 및  클릭 시 영화 세부정보 페이지로 이동
+
++목표와 달랐던 점
+
+1. 알고리즘
+
+   - 좋은 평점을 준 영화들과 비슷한 영화 추천 역 참조 모델 설계 실수로 인하여 시간 부족으로 인하여 미 구현
+
+   → 보완 : 가입시 정해진 장르를 선택할 수 있게 하여 이와 관련된 알고리즘 구현
+
+2. Home
+
+   - 캐러샐 특성과 아이프레임 특성의 충돌로 인하여 깔끔한 유튜브 송출 화면 구현에 어려움을 겪음
+
+   → 추후 swiper를 활용하여 구현을 해볼 예정
+
+3. chrome 8.0 이상의 cookie 기본 설정 충돌로 인하여 콘솔에서 경고 발생
+
+## 데이터베이스 모델링(ERD)
+
+![Untitled__1_](/uploads/50eddeb0bdb47e4fc769b40956557674/Untitled__1_.png)
+
+![Untitled__2_](/uploads/cfeaa5aeb0db9bc8f3e074a55f1d2d55/Untitled__2_.png)
+
+## 영화 추천 알고리즘에 대한 기술적 설명
+
+1. Django에서 현재 시간을 받아들여 현재 시간에 추천할 영화를 추천함 
+   * 주말 / 평일 구분
+   * 평일의 경우 새벽 / 아침 / 점심 / 저녁을 기준으로 4개의 시간대로 구분하여 각각에 맞는 장르에 해당하는 영화를 출력함
+2. 회원가입 시 유저가 좋아하는 장르를 받아 인기도 상위 영화 순서중 좋아하는 장르가 포함된 영화 출력
+3. 사이트 자체 회원들 중 일정 인원 수, 일정 평점 이상의 영화를 출력, 데이터가 모자랄 경우 tmdb 기준 상위 영화를 출력
+   * 유저들의 정보가 충분히 모이지 않았을 경우 tmdb의 popularity 기준 상위 영화들을 출력할 수 있도록 설정
+
+## 서비스 대표 기능에 대한 설명
+
+1. Movie
+   1. Carousel을 통한 현재 영화관 인기 상영작의 예고편 재생을 통하여,  트렌드 파악 및 기본적인 정보 제공
+   2. 현재 시간에 맞는 영화 추천을 통하여, 사용경험 상향
+   3. 유저들의 평가에 의해 추천되는 영화리스트, 이를 통해 함께 가꾸어 나가는 영화 정보 소통의 장이 될 수 있음.
+2. Community
+   * 유저간 자유로운 소통이 가능한 자유 게시판
+3. Profile
+   * 기본적인 유저의 정보를 파악
+   * 본인의 프로필인 경우 비밀번호변경과 회원 탈퇴를 추가적으로 지원
+
+
+
+## 기타(느낀 점, 후기 등)
+
+**이병수**
+
+SSAFY  1학기의 동안 여러 수업과 관통 프로젝트를 거쳐 마지막 프로젝트를 진행하게 되었습니다. 이제껏 들었던 수업과 관통 프로젝트들이 한번에 합쳐지며, 한 학기동안 무엇을 배웠는지 보여줄 수 있는 프로젝트였다고 생각합니다. 프로젝트 구현을 위하여 오류가 발생한 부분을 고치며, 경험에서 배우는 지식이 무엇인지 알 수 있는 기회였으며, 스스로 자료를 찾아보는 과정에서 2학기 프로젝트 때에는 어떻게 해야할지 다시 생각을 해볼 수 있는 좋은 기회였습니다. 
+
+**박소현**
+
+SSAFY 1학기 과정과 관통 프로젝트를 차근차근 거쳐 이렇게 최종 프로젝트로서 영화 추천 사이트를 만들게 되었습니다. 무엇보다 제가 실생활에서 접하던 서비스를 비슷하게 실제로 직접 구현할 수 있었던 점이 좋았습니다. 또한, 1학기 과정을 거치며 배운 것에 덧붙여 필요한 부분은 직접 찾아보고 구현하는 과정을 통해 2학기 프로젝트 과정을 간접적으로 준비하고 있다는 느낌이 들었습니다. 아직 부족하지만 혼자서 문제를 해결하거나 혹은 팀과 서로 소통하면서 해결하는 과정에서 한결 성장했다고 생각합니다.

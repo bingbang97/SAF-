@@ -1,0 +1,296 @@
+[
+    {
+        "pk": 436270,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 436270,
+            "title": "블랙 아담",
+            "released_date": "2022-10-19",
+            "genres": [
+                28,
+                14,
+                878
+            ],
+            "youtube_id": "F_pYZ2HEW3E"
+        }
+    },
+    {
+        "pk": 882598,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 882598,
+            "title": "스마일",
+            "released_date": "2022-09-23",
+            "genres": [
+                27,
+                9648,
+                53
+            ],
+            "youtube_id": "1aNyNI6P0U4"
+        }
+    },
+    {
+        "pk": 505642,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 505642,
+            "title": "블랙 팬서: 와칸다 포에버",
+            "released_date": "2022-11-09",
+            "genres": [
+                28,
+                12,
+                878
+            ],
+            "youtube_id": "kyMMq8Kz-8I"
+        }
+    },
+    {
+        "pk": 663712,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 663712,
+            "title": "테리파이어 2",
+            "released_date": "2022-10-06",
+            "genres": [
+                27,
+                53
+            ],
+            "youtube_id": "x5DhuDSArTI"
+        }
+    },
+    {
+        "pk": 551271,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 551271,
+            "title": "미디벌",
+            "released_date": "2022-09-08",
+            "genres": [
+                36,
+                28,
+                18
+            ],
+            "youtube_id": "zLU-FHARqQE"
+        }
+    },
+    {
+        "pk": 676701,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 676701,
+            "title": "Tadeo Jones 3: La Tabla Esmeralda",
+            "released_date": "2022-08-24",
+            "genres": [
+                12,
+                16,
+                35,
+                10751,
+                14
+            ],
+            "youtube_id": "t07Nq-NL_jU"
+        }
+    },
+    {
+        "pk": 862965,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 862965,
+            "title": "에밀리 더 크리미널",
+            "released_date": "2022-08-12",
+            "genres": [
+                80,
+                18,
+                9648,
+                53
+            ],
+            "youtube_id": "ZyPdyekByJ0"
+        }
+    },
+    {
+        "pk": 979924,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 979924,
+            "title": "온 더 라인",
+            "released_date": "2022-10-31",
+            "genres": [
+                53
+            ],
+            "youtube_id": "N4KLEr4Ih1U"
+        }
+    },
+    {
+        "pk": 717728,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 717728,
+            "title": "Jeepers Creepers: Reborn",
+            "released_date": "2022-09-15",
+            "genres": [
+                27,
+                53,
+                9648
+            ],
+            "youtube_id": "dDU9yeqXtUw"
+        }
+    },
+    {
+        "pk": 985939,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 985939,
+            "title": "폴: 600미터",
+            "released_date": "2022-08-11",
+            "genres": [
+                53
+            ],
+            "youtube_id": "n19hk6HdF7k"
+        }
+    },
+    {
+        "pk": 49046,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 49046,
+            "title": "서부 전선 이상 없다",
+            "released_date": "2022-10-07",
+            "genres": [
+                10752,
+                18,
+                28
+            ],
+            "youtube_id": "3qP0Z04UrJY"
+        }
+    },
+    {
+        "pk": 1037858,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 1037858,
+            "title": "미션 축구: 돌연변이를 무찔러라!",
+            "released_date": "2022-11-09",
+            "genres": [
+                16,
+                35,
+                10751
+            ],
+            "youtube_id": "usiCmCcNos8"
+        }
+    },
+    {
+        "pk": 760161,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 760161,
+            "title": "오펀: 천사의 탄생",
+            "released_date": "2022-07-27",
+            "genres": [
+                27,
+                53
+            ],
+            "youtube_id": "UJlMFx6fm60"
+        }
+    },
+    {
+        "pk": 807356,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 807356,
+            "title": "왓쳐",
+            "released_date": "2022-06-03",
+            "genres": [
+                9648,
+                53,
+                27
+            ],
+            "youtube_id": "KDc6ZLo8sjc"
+        }
+    },
+    {
+        "pk": 829799,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 829799,
+            "title": "파라다이스 시티",
+            "released_date": "2022-11-11",
+            "genres": [
+                80,
+                28,
+                53
+            ],
+            "youtube_id": "rvNGlSk_tP4"
+        }
+    },
+    {
+        "pk": 833097,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 833097,
+            "title": "폴링 포 크리스마스",
+            "released_date": "2022-11-10",
+            "genres": [
+                10749,
+                35
+            ],
+            "youtube_id": "bsNIJd45jYM"
+        }
+    },
+    {
+        "pk": 830788,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 830788,
+            "title": "디 인비테이션",
+            "released_date": "2022-08-24",
+            "genres": [
+                27,
+                53
+            ],
+            "youtube_id": "-msOXDk_Rnk"
+        }
+    },
+    {
+        "pk": 361743,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 361743,
+            "title": "탑건: 매버릭",
+            "released_date": "2022-05-24",
+            "genres": [
+                28,
+                18
+            ],
+            "youtube_id": "R4bkJYAy4Ws"
+        }
+    },
+    {
+        "pk": 634649,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 634649,
+            "title": "스파이더맨: 노 웨이 홈",
+            "released_date": "2021-12-15",
+            "genres": [
+                28,
+                12,
+                878
+            ],
+            "youtube_id": "Uty1B1GuO7E"
+        }
+    },
+    {
+        "pk": 610150,
+        "model": "movies.latest",
+        "fields": {
+            "movie_id": 610150,
+            "title": "드래곤볼 슈퍼: 슈퍼 히어로",
+            "released_date": "2022-06-11",
+            "genres": [
+                16,
+                878,
+                28
+            ],
+            "youtube_id": "GD8nCSr54PA"
+        }
+    }
+]
